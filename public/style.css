@@ -1,0 +1,29 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+}
+img{
+  height: 200px;
+}
+
+.housetask {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.housetask li {
+  border: solid black 1px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.isCompleted {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+#no-margin {
+  margin: 0;
+}
